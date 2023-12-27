@@ -145,7 +145,7 @@ hr{
     display: flex;
     flex-direction: column;
     gap:30px;
-
+    width: 100%;
   }
 
   .right{
@@ -164,17 +164,18 @@ hr{
   }
   .service1{
     position: relative;
-    left: 40px;
+    left: 20px;
+
 
   }
   .service2{
     position: relative;
-    left: 40px;
+    left: 20px;
 
   }
   .service3{
     position: relative;
-    left: 40px;
+    left: 20px;
 
   }
 

@@ -124,7 +124,7 @@ hr{
   text-align: center;
   align-items: center;
 }
-@media (max-width:900px) {
+@media (max-width:768px) {
   .cont{
     display: flex;
     flex-direction: column;
@@ -196,9 +196,10 @@ hr{
   .how{
     display:flex;
     flex-direction: column;
-
+    gap:1px;
   }
   .how1{
     width: 100%;
+
   }
 }

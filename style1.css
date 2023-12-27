@@ -1,0 +1,138 @@
+.cont{
+  display: flex;
+  gap:100px;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.right{
+  width: 40%;
+}
+.left{
+  width: 60%;
+}
+h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+hr{
+  border-style: dotted none none;
+  width: 50%;
+  border-width: 60px;
+  padding: 10px;
+  position: relative;
+  left: 400px;
+
+
+}
+.img{
+  width: 80%;
+}
+
+.how{
+  display: flex;
+gap:100px;
+
+
+}
+.how1{
+  display: grid;
+  grid-gap: 10px;
+  width: 400px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #EEEEEE;
+
+
+}
+.ho{
+  padding: 50px;
+  background-color: white;
+  border-radius: 50px;
+
+}
+.num{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+
+
+}
+img{
+  width: 100%;
+}
+.how1{
+  display: flex;
+  grid:50px;
+
+}
+.how2{
+  display: grid;
+  grid-gap: 10px;
+  width: 500px;
+    padding: 50px;
+}
+.ho1{
+  padding: 50px;
+  background-color: white;
+
+}
+.num1{
+  background-color: blue;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+@media (max-width:600px) {
+  .cont{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+  }
+  .img{
+    width: 100%
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+  }
+  hr{
+    border-style: dotted none none;
+    width: 50%;
+    border-width: 40px;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+  }
+  .how{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+  }
+  .how1{
+    width: 100%;
+
+  }
+
+  .how1{
+    display:flex;
+    flex-direction: column;
+    gap:1px;
+  }
+  .how2{
+    width: 100%;
+
+  }
+}

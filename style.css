@@ -1,0 +1,204 @@
+.cont{
+  display: flex;
+  gap:200px;
+  background-color: #F3F8FF;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+body{
+  height: 100vh;
+}
+.service{
+  display: flex;
+  gap:100px;
+
+}
+.num{
+  background-color: blue;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+.service1{
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #F5F7F8;
+  width: 400px;
+
+  position: relative;
+  left: 70px;
+  padding: 20px;
+
+}
+.service2{
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #F5F7F8;
+  width: 400px;
+  /* text-align: center;
+  align-items: center;
+  justify-content: center; */
+position: relative;
+left: 60px;
+padding: 20px;
+
+}
+.professional{
+  display: flex;
+  gap:500px;
+padding: 50px;
+}
+.pro1{
+  width: 40%;
+}
+.pro2{
+  width: 60%;
+}
+.imp{
+  width: 50%;
+}
+.h4{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.service3{
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #F5F7F8;
+  width: 400px;
+
+position: relative;
+left: 100px;
+padding: 20px;
+}
+.content{
+  text-align: center;
+}
+.right{
+  width: 50%;
+}
+.left{
+  width: 50%;
+}
+h2{
+  font-size: 50px;
+  font-weight: bolder;
+}
+hr{
+  border-style: dotted none none;
+  width: 50%;
+  border-width: 60px;
+  padding: 10px;
+  position: relative;
+  left: 400px;
+
+
+}
+.how{
+  display: flex;
+  grid:50px;
+
+}
+.how1{
+  display: grid;
+  grid-gap: 10px;
+  width: 500px;
+    padding: 50px;
+}
+.ho{
+  padding: 50px;
+  background-color: #F3F8FF;
+
+}
+.h2{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+@media (max-width:600px) {
+  .cont{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+  }
+  hr{
+    border-style: dotted none none;
+    width: 50%;
+    border-width: 40px;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+  }
+  .service{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+
+  }
+
+  .right{
+    width: 100%;
+  }
+
+  h2{
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  .img{
+    width: 100%
+  }
+  .left{
+    width: 100%;
+  }
+  .service1{
+    position: relative;
+    left: 40px;
+
+  }
+  .service2{
+    position: relative;
+    left: 40px;
+
+  }
+  .service3{
+    position: relative;
+    left: 40px;
+
+  }
+
+  .professional{
+    display: flex;
+    flex-direction:column;
+
+    gap:50px;
+  padding: 50px;
+  }
+  .pro1{
+    width: 100%;
+  }
+  .pro2{
+    width: 100%;
+  }
+  .imp{
+    width: 100%;
+  }
+  .how{
+    display:flex;
+    flex-direction: column;
+
+  }
+  .how1{
+    width: 100%;
+  }
+}

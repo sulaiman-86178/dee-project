@@ -15,6 +15,10 @@ border-radius: 20px;
   gap:5px;
 }
 .pro{
+  display: grid;
+  gap:10px;
+}
+.le{
   display: flex;
   gap:10px;
 }

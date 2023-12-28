@@ -95,6 +95,19 @@ img{
   display: flex;
 
 }
+button{
+  padding: 5px;
+  border-radius: 7px;
+  background-color: #191919;
+  width: 150px;
+  position: relative;
+  top: 15px;
+}
+a{
+  text-decoration: none;
+  color: white;
+
+}
 
 @media (max-width:600px) {
   .cont{

@@ -49,4 +49,9 @@ border-radius: 20px;
     height: 400px;
     width: 350px;
   }
+  img{
+    padding: 20px;
+    width: 100%;
+
+  }
 }

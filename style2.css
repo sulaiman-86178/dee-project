@@ -14,6 +14,10 @@ border-radius: 20px;
   display: flex;
   gap:5px;
 }
+.pro{
+  display: flex;
+  gap:10px;
+}
 .in{
   display: flex;
   gap:5px;
@@ -27,7 +31,7 @@ border-radius: 20px;
     display: flex;
     flex-direction: column;
     gap:50px;
-    padding: 100px;
+    padding: 50px;
   }
   .right{
     width: 100%;
